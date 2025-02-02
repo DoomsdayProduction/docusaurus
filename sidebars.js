@@ -25,38 +25,6 @@ const sidebars = {
           label: "Payment Gateways",
           items: ["Carding-Methods/method-intro"],
         },
-        {
-          type: "category",
-          label: "Phone Banking Systems",
-          items: [
-            {
-              type: "doc",
-              id: "Phone-Banking-Systems/Capital One",
-              label: "Capital One",
-            },
-            {
-              type: "doc",
-              id: "Phone-Banking-Systems/Wellsfargo",
-              label: "Wellsfargo",
-              customProps: {
-                image:
-                  "https://pbs.twimg.com/profile_images/1336717992831430657/HdqvXIvG_400x400.png",
-              },
-            },
-            {
-              type: "doc",
-              id: "Phone-Banking-Systems/Chase",
-              label: "Chase",
-            },
-            {
-              type: "doc",
-              id: "Phone-Banking-Systems/Citi Bank",
-              label: "Citi Bank",
-            },
-          ],
-        },
-      ],
-    },
     {
       type: "category",
       label: "Carding Methods",
